@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* width: 1440px; */
+  height: 1870px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+header {
+  width: 1110px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.TM {
+  width: 40px;
+  height: 40px;
+  background-color: #f16718;
+  padding-left: 2px;
+  padding-bottom: 19px;
+}
+.TM p {
+  font-family: Barlow;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: white;
+}
+.order {
+  width: 175px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  border-radius: 10px;
+  color: #162542;
+}
+.pre1 {
+  background-color: #e8eff2;
+  cursor: pointer;
+}
+.pre2 {
+  background-color: #f16718;
+  color: white;
+  cursor: pointer;
+}
+.text {
+  width: 445px;
+  height: 312px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.text-content h1 {
+  font-family: Barlow;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 56px;
+  letter-spacing: 0px;
+  color: #162542;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.text-content p {
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #7b8bad;
+  text-transform: lowercase;
+}
+.text p {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #7b8bad;
+  text-transform: uppercase;
+}
+.interface1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: -89px;
+}
+.first-main img {
+  width: 540px;
+  height: 480px;
+}
+.first-main {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1110px;
+  margin-bottom: 3%;
+}
+.second-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1110px;
+}
+.img img {
+  margin-right: 140px;
+}
+.second-text {
+  width: 200px;
+  height: 265px;
+  margin-right: 25px;
+}
+.second-text h1 {
+  text-transform: uppercase;
+  font-family: Barlow;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 36px;
+  letter-spacing: 0px;
+  width: 255px;
+  height: 108px;
+  margin-bottom: 10%;
+  color: #162542;
+}
+.second-text p {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  width: 255px;
+  color: #7b8bad;
+}
+footer {
+  max-width: 1290px;
+  height: 323px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  margin-left: 30px;
+  flex-wrap: wrap;
+}
+
+footer p {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #7b8bad;
+}
+footer div {
+  width: 255px;
+  height: 56px;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 20px;
+  min-width: 0;
+}
+.last {
+  width: 272px;
+  height: 26px;
+  display: flex;
+  margin-top: 6%;
+  bottom: 0;
+}
+.all {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #7b8bad;
+}
+.typemaster {
+  color: #7b8bad;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+.grey-div1 {
+  position: absolute;
+  float: left;
+  width: 130px;
+  height: 240px;
+  background-color: #e8eff2;
+  left: 0;
+  border-radius: 0 20px 20px 0;
+  margin-top: 320px;
+}
+.grey-div2 {
+  position: absolute;
+  float: right;
+  width: 160px;
+  height: 240px;
+  background-color: #e8eff2;
+  right: 0;
+  top: 220px;
+  border-radius: 20px 0 0 20px;
+}
+.pre1:hover {
+  background-color: #162542;
+  color: #ffffff;
+}
+.pre2:hover {
+  background-color: #ff9b62;
+}
+@media only screen and (max-width: 1430px) {
+  .grey-div2,
+  .grey-div1 {
+    display: none;
+  }
+}
